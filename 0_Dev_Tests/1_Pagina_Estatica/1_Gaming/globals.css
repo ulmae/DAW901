@@ -143,3 +143,29 @@ footer h2{
 @media only screen and (min-width: 1200px) {
 
 }
+
+  
+  .main {
+    background-color: cyan;
+    float: left;
+    width: 70%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    float: right;
+    width: 28%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
