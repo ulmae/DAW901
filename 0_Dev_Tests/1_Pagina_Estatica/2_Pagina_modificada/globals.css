@@ -1,0 +1,58 @@
+html, body {
+    margin: 0 0;
+    font-family: 'Outfit', Arial, sans-serif;
+}
+.header-img{
+    width: 100%;
+}
+footer {
+    padding-top: 60px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+    outline-color: cyan;
+    outline-width: medium;
+    outline-offset: 2px;
+    border-top: grey 8px solid;
+}
+.logo {
+    max-width: 400px;
+}
+.footer-content{
+    width: 1200px;
+    color: white;
+}
+.brand-button{
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    padding: 14px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.subscribe{
+    margin-left: 60px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+}
+footer h2{
+    letter-spacing: 0.1em;
+}
+#social-media{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+}
