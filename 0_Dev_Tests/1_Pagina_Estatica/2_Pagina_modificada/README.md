@@ -1,7 +1,7 @@
 # Texto de artículos
 ## ¿Qué tan largo es Cult of the Lamb?
 
-En Cult of the Lamb tu misión es, si, lo adivinaste, ganar suficientes seguidores para creat un culto. Aunque ese suene bastante cansado y largo, la verdad es que, este juego de Massive Monster no es tan largo como creerías. 
+En Cult of the Lamb tu misión es, si, lo adivinaste, ganar suficientes seguidores para crear un culto. Aunque ese suene bastante cansado y largo, la verdad es que, este juego de Massive Monster no es tan largo como creerías. 
 
 Según la página web How Long to Beat, si te concentras solamente en la historia principal sin tomar ningún side quest, puedes completar Cult of the Lamb en a penas 14 horas y media. Si tomas los side quests, esto se alarga a 18 horas y media aproximadamente. Si haces un juego completo y quieres terminar todas las tareas que el juego tiene por ofrecer, te tomaría hasta 25 horas y media. Si quedas con sed de un juego más, puedes lanzarte a su DLC llamado Relics of the Old Faith, que te podría tomar entre 4.5 y 23.5 horas para llegar a su fin, dependiendo de las tareas que quieras seguir en el juego. 
 
@@ -15,7 +15,7 @@ Te recomendamos que te tomes tu tiempo y disfrutes la aventura.
 
 Cada deck de Pokémon TCG tiene su oportunidad de ser grandioso, pero cuando entras en el mundo de Camponatos Mundiales de Pokémon, los pros saben que la elección de tu deck puede llevar al éxito o arrastrar al fracaso toda tu temporada. 
 
-La temporara 2023/2024 ha visto uno de los metagames más balanceados en la historia de Pokémon, con una docena de decks subiendo al top ocho durante el año. En ruta a Worlds, hay oportunidad para que cualquier deck llegue a grandes alturas, pero algunos tienen más probabilidad que otros. Los pro players de Pokémon TCG han resaltado tres decks que esperan sean usados con éxito en el Campeonato Mundial entre Agosto 16 y 18 en Honolulu, Hawaii; y nos comentan lo que planean utilizar. 
+La temporada 2023/2024 ha visto uno de los metagames más balanceados en la historia de Pokémon, con una docena de decks subiendo al top ocho durante el año. En ruta a Worlds, hay oportunidad para que cualquier deck llegue a grandes alturas, pero algunos tienen más probabilidad que otros. Los pro players de Pokémon TCG han resaltado tres decks que esperan sean usados con éxito en el Campeonato Mundial entre Agosto 16 y 18 en Honolulu, Hawaii; y nos comentan lo que planean utilizar. 
 
 "Por mi experiencia en NAIC, siento que un deck de Gardevoir es perfecto para llevar a Worlds", Rose Gregon, una jugadora de TCG en camino a Hawaii le comentó a Dot Esports. "Con suficiente adaptación a los decks populares, Charizard y Regidrago, sé que con Gardevoir se puede arrasar con cualquier cosa". 
 

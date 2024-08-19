@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 html, body {
     margin: 0 0;
     font-family: 'Outfit', Arial, sans-serif;
@@ -55,6 +60,16 @@ header{
     height: auto; 
     margin-bottom: 10px; 
 }
+.article-text{
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+}
+.article-container ul {
+    margin: 1.5em 30px;
+}
+.article-container h4 {
+    line-height: 1.5em;
+}
 .articles-container p{
     font-size: 18px;
     color: #333;
@@ -90,6 +105,9 @@ footer a:hover{
     text-decoration: none;
     color: cyan; 
     transition: color 0.3s ease, transform 0.3s ease;
+}
+footer h2{
+    margin: 0.5em 0 ;
 }
 .logo {
     max-width: 240px;

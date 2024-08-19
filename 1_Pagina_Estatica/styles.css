@@ -102,6 +102,9 @@ footer a:hover{
     color: cyan; 
     transition: color 0.3s ease, transform 0.3s ease;
 }
+footer h2{
+    margin: 0.5em 0 ;
+}
 .logo {
     max-width: 240px;
 }
