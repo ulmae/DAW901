@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial de Transacciones</title>
+  <link rel="stylesheet" href="../historial/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">PokeBank</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-bar" id="nav-bar">
+            <ul>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#">Acciones</a></li>
+                <li><a href="../historial/index.html">Historial</a></li>
+                <li><a href="#">Gráficas</a></li>
+                <li><a href="#">Nuestro Equipo</a></li>
+            </ul>
+        </nav>
+    </header>
+  <section class="filter-section">
+    <h1>Historial de Transacciones</h1>
+    <div class="filters">
+      <label for="account">Seleccionar Cuenta:</label>
+      <select id="account">
+        <option value="ahorros">Cuenta de Ahorros</option>
+        <option value="corriente">Cuenta Corriente</option>
+        <option value="credito">Tarjeta de Crédito</option>
+      </select>
+      
+      <label for="start-date">Fecha desde:</label>
+      <input type="date" id="start-date">
+      
+      <label for="end-date">Fecha hasta:</label>
+      <input type="date" id="end-date">
+      
+      <button id="filter-btn">Filtrar</button>
+    </div>
+  </section>
+
+  <!-- Tabla de Transacciones -->
+  <section class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Descripción</th>
+          <th>Categoría</th>
+          <th>Monto</th>
+          <th>Saldo</th>
+          <th>Detalles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/09/2024</td>
+          <td>Pago en Tienda</td>
+          <td>Compra</td>
+          <td class="debit">- $50.00</td>
+          <td>$950.00</td>
+          <td><button class="details-btn" data-id="1">Ver más</button></td>
+        </tr>
+        <tr>
+          <td>03/09/2024</td>
+          <td>Depósito</td>
+          <td>Ingreso</td>
+          <td class="credit">+ $200.00</td>
+          <td>$1150.00</td>
+          <td><button class="details-btn" data-id="2">Ver más</button></td>
+        </tr>
+        <tr>
+            <td>03/09/2024</td>
+            <td>Pago de Matrícula</td>
+            <td>Depósito</td>
+            <td class="debit">- $60.00</td>
+            <td>$850.00</td>
+            <td><button class="details-btn" data-id="1">Ver más</button></td>
+          </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div id="details-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Detalles de Transacción</h2>
+      <p><strong>Fecha:</strong> <span id="modal-date"></span></p>
+      <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
+      <p><strong>Monto:</strong> <span id="modal-amount"></span></p>
+      <p><strong>Saldo después de la transacción:</strong> <span id="modal-balance"></span></p>
+    </div>
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
