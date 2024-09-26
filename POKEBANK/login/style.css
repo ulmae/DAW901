@@ -131,3 +131,29 @@ header {
     padding: 3px;
     width: 100%;
 }
+@media (max-width: 600px) {
+  #form {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #form h1 {
+    font-size: 1.2rem;
+  }
+
+  #form button {
+    font-size: 0.9rem;
+  }
+
+  .input-control input {
+    font-size: 0.9rem;
+  }
+
+  #form a {
+    font-size: 0.8rem;
+  }
+
+  body {
+    background-size: contain;
+  }
+}
