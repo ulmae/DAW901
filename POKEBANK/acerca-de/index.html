@@ -33,8 +33,61 @@
             </ul>
         </nav>
     </header>
-    <div>
-        <h1>Nuestro Equipo</h1>
+    <div class="container">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Acerca de Nuestro Equipo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Acerca de Nuestro Equipo</h1>
+        <p>Nuestro equipo está compuesto por profesionales apasionados que trabajan juntos para ofrecer las mejores soluciones.</p>
+        
+        <div class="team">
+            <div class="member" onclick="showInfo('Ulma Lissette Escobar Solano', 'Desarrollador Frontend con 5 años de experiencia en la creación de interfaces atractivas.')">
+                <img src="miembro1.jpg" alt="Miembro 1">
+                <h3>Ulma Lissette Escobar Solano</h3>
+                <p>Desarrollador Frontend</p>
+            </div>
+            <div class="member" onclick="showInfo('Karen Banessa Ochoa García', 'Diseñadora Gráfica enfocada en crear experiencias visuales únicas y efectivas.')">
+                <img src="miembro2.jpg" alt="Miembro 2">
+                <h3>Karen Banessa Ochoa García</h3>
+                <p>Diseñadora Gráfica</p>
+            </div>
+            <div class="member" onclick="showInfo('Daniela Fernanda Tamayo Jovel', 'Gerente de Proyectos que asegura que nuestros proyectos se entreguen a tiempo y dentro del presupuesto.')">
+                <img src="miembro3.jpg" alt="Miembro 3">
+                <h3>Daniela Fernanda Tamayo Jovel</h3>
+                <p>Gerente de Proyectos</p>
+            </div>
+            <div class="member" onclick="showInfo('José Cristóbal López Martínez', 'Diseñador de contenidos quien está involucrado en el marketing online.')">
+                <img src="miembro4.jpg" alt="Miembro 4">
+                <h3>José Cristóbal López Martínez</h3>
+                <p>Diseñador de Contenidos</p>
+            </div>
+            <div class="member" onclick="showInfo('David Antonio Alas Tisnado', 'Diseñador web quien se encarga de crear una apariencia atractiva para la audiencia.')">
+                <img src="miembro5.jpg" alt="Miembro 5">
+                <h3>David Antonio Alas Tisnado</h3>
+                <p>Diseñador Web</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showInfo(name, description) {
+            swal({
+                title: name,
+                text: description,
+                icon: "info",
+                button: "Cerrar",
+            });
+        }
+    </script>
+</body>
+</html>
       </div>
     <footer class="footer">
         <div class="container text-center">
