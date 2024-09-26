@@ -1,0 +1,44 @@
+graficos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.graf-14 {
+    width: 50%;
+}
+.graf-24 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    gap: 30px;
+}
+
+@media (max-width: 760px) {
+    .graficos{
+        gap:5px;
+    }
+    .graf-24{
+        gap:5px
+    }
+}
+
+@media (max-width: 420px) {
+    .graficos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .graf-14 {
+        width: 100%;
+    }
+    .graf-24 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+        gap: 20px;
+    }
+}
