@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    padding-bottom: 50px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -61,6 +65,9 @@ header {
 .footer {
     background-color: #58ac95;
     padding-top: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-icons a {
@@ -74,8 +81,15 @@ header {
     color: #fac142;
 }
 
+@media (max-width: 1000px) {
+    body{
+        padding-bottom: 100px;
+    }
+}
+
 /* Media Query para navbar y footer */
 @media (max-width: 768px) {
+    
     .nav-bar {
         display: none;
         flex-direction: column;

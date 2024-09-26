@@ -2,13 +2,7 @@
 body {
     background-color: #fdedd4;
   }
-  *{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+
   /*NAVBAR CODE*/
   header {
     display: flex;
@@ -104,7 +98,8 @@ body {
   .filters {
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 900px;
+    gap: 10px;
   }
   
   .filters label {
@@ -170,7 +165,8 @@ body {
     font-size: 28px;
     cursor: pointer;
   }
-@media (max-width: 600px) {
+
+@media (max-width: 900px) {
 
   .filter-section {
     padding: 10px;

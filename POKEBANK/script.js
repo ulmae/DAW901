@@ -55,13 +55,3 @@ function enterBank() {
     window.location.href = './login/index.html'; 
   }, 2000);
 }
-
-
-// Fondo que cambia de colores, tomado de repositorio personal ulmae.github.io/25_JavaScript_Projects/1_Background_Color_Change/index.html
-
-newColor = () => {
-  var randomColor = Math.floor(Math.random()*16777215).toString(16);
-  document.body.style.backgroundColor = "#" + randomColor;
-}
-
-window.setInterval(newColor,2500) 
