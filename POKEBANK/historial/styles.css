@@ -170,4 +170,55 @@ body {
     font-size: 28px;
     cursor: pointer;
   }
+@media (max-width: 600px) {
+
+  .filter-section {
+    padding: 10px;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filters label {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .table-section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .table-section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  table th,
+  table td {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin: 20% auto;
+  }
+}
   
