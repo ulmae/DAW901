@@ -1,3 +1,41 @@
-h1 {
-    color: red
+#username {
+    font-weight: 700;
+}
+
+.account-entity {
+    max-width: 800px;
+}
+
+.greeting {
+    padding-top: 1em;
+}
+
+.action-box {
+    padding: 1em 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .action-box {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .action-box {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        align-content: space-between;
+    }
 }
