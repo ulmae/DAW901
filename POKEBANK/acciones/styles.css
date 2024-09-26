@@ -8,6 +8,7 @@
 
 .greeting {
     padding-top: 1em;
+    position: relative;
 }
 
 .action-box {
@@ -17,6 +18,16 @@
     row-gap: 10px;
     justify-content: center;
     align-content: center;
+}
+
+.sign-off {
+    padding-top: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.sign-off:hover {
+    cursor:pointer;
 }
 
 @media only screen and (min-width: 600px) {

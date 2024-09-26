@@ -54,3 +54,6 @@ function pago() {
         
     })
 }
+function logOut() {
+    swal("Se ha cerrado la sesión.")
+}
