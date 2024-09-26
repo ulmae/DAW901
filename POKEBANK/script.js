@@ -44,3 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+function enterBank() {
+  const welcomeText = document.getElementById('welcome-text');
+  
+  // Cambiar el texto al hacer clic
+  welcomeText.innerHTML = 'Cargando tu banca en línea...';
+  
+  // Simular una pequeña espera antes de redirigir a otra página
+  setTimeout(() => {
+    window.location.href = './login/index.html'; 
+  }, 2000);
+}
+
+
