@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación de Presupuesto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="budget">
+      <h1>Presupuesto de Octubre 2024</h1>
+      <h2>+500.00</h2>
+      <div class="summary">
+        <div class="income-expense income">
+          <p>INGRESOS:</p>
+          <div class="amount">+800.00</div>
+        </div>
+        <div class="income-expense expense">
+          <p>EGRESOS:</p>
+          <div class="amount">-300.00</div>
+        </div>
+      </div>
+      <div class="percent">
+        <p>Porcentaje de gastos: <span>12%</span></p>
+      </div>
+    </div>
+
+    <div class="transaction-section">
+      <div class="transaction">
+        <h3>Transacción</h3>
+        <form id="transaction-form">
+          <select id="type">
+            <option value="ingreso">Ingreso</option>
+            <option value="egreso">Egreso</option>
+          </select>
+          <input type="text" id="description" placeholder="Descripción">
+          <input type="number" id="amount" placeholder="Monto">
+          <button type="submit">Agregar</button>
+        </form>
+      </div>
+
+      <div class="details">
+        <div class="tabs">
+          <button class="tab active" data-tipo="ingreso">ingresos</button>
+          <button class="tab" data-tipo="egreso">egresos</button>
+        </div>
+        <div class="transactions-list"></div> <!-- Solo una lista, mostrará según la pestaña activa -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
