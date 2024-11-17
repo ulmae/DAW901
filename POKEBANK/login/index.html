@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identificarse | PokeBank</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
     <header>
         <div class="logo">PokeBank</div>
         <div class="hamburger" id="hamburger">
@@ -22,11 +23,11 @@
         </div>
         <nav class="nav-bar" id="nav-bar">
             <ul>
-                <li><a href="../" class="active">Inicio</a></li>
-                <li><a href="../acciones">Acciones</a></li>
-                <li><a href="../historial">Historial</a></li>
-                <li><a href="../graficas">Gráficas</a></li>
-                <li><a href="../acerca-de">Nuestro Equipo</a></li>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#">Acciones</a></li>
+                <li><a href="../historial/index.html">Historial</a></li>
+                <li><a href="#">Gráficas</a></li>
+                <li><a href="#">Nuestro Equipo</a></li>
             </ul>
         </nav>
     </header>
@@ -47,6 +48,7 @@
                 <label for="password">Confirmar PIN</label>
                 <input type="password" name="password2" id="password2" required>
             </div>
+            <a href="#">¿Olvidaste tu contraseña?</a>
             <button type="submit">Iniciar Sesión</button>
         </form>
     </div>
