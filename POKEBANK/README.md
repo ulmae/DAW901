@@ -8,8 +8,4 @@ Autores:
 
 +	Daniela Fernanda Tamayo Jovel - TJ231470
 
-+	José Cristóbal López Martínez - LM241685
-
-+	David Antonio Alas Tisnado - AT221930
-
 +	Ulma Lissette Escobar Solano - ES221595
